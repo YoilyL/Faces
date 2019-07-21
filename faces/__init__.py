@@ -35,7 +35,7 @@ from time import time
 
 import requests
 
-BASE_API_URL = 'https://ph-x-p.faceapp.io/api/v2.11/photos'  # Ensure no slash at the end.
+BASE_API_URL = 'https://http://api.faceapp.io/api/v3.0/photos'  # Ensure no slash at the end.
 BASE_HEADERS = {'User-agent': "FaceApp/3.4.8 (Linux; Android 8.1.0; VirtualBox Build/OPM6.171019.030.B1; wv)",'X-FaceApp-AppLaunchedID':str(time())}
 DEVICE_ID_LENGTH = 16
 
